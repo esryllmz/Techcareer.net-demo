@@ -1,0 +1,79 @@
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+
+.dictionary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  background-color: #eafbf1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  
+
+}
+.dictionary-image {
+
+  display: flex;
+  flex: 1;
+}
+.dictionary-image img {
+
+  width: 250px;
+  height: auto;
+
+}
+
+.dictionary-content{
+  
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  
+}
+.dictionary-content h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.dictionary-content p {
+  max-width: 780px;
+  font-size: 1em;
+  color: #555;
+  line-height: 1.5;
+}
+
+.dictionary-link {
+  color:  #00b666;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dictionary-link:hover {
+  text-decoration: underline;
+}
+
+.dictionary-button {
+  margin-top: 15px;
+  width: 155px;
+  height: 43px;
+  background-color:  #00b666;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.dictionary-button:hover {
+  background-color:  #00b666;
+  transform: scale(1.03);
+
+}

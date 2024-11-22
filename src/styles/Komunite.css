@@ -1,0 +1,72 @@
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+.komunite-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.komunite-title {
+  font-size: 2em;
+  color: #333;
+}
+
+.komunite-description {
+  font-size: 1.2em;
+  color: #666;
+  margin: 10px 0 20px;
+}
+
+.komunite-button {
+  width: 155px;
+  height: 43px;
+  background-color:  #00b666;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.komunite-button:hover {
+  background-color:  #00c26d;
+  transform: scale(1.03);
+}
+
+.komunite-cards {
+  
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.komunite-card {
+  background: white;
+  border-radius: 50% 50% 10px 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.komunite-card h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.komunite-card p {
+  color: #777;
+  font-size: 1em;
+}
+
+.komunite-card-image {
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+}
